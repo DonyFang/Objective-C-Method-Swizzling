@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D971646F1F3054330080480A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D971646E1F3054330080480A /* main.m */; };
+		D97164721F3054330080480A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164711F3054330080480A /* AppDelegate.m */; };
+		D97164751F3054330080480A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164741F3054330080480A /* ViewController.m */; };
+		D97164781F3054340080480A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97164761F3054340080480A /* Main.storyboard */; };
+		D971647A1F3054340080480A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97164791F3054340080480A /* Assets.xcassets */; };
+		D971647D1F3054340080480A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D971647B1F3054340080480A /* LaunchScreen.storyboard */; };
+		D97164881F3054340080480A /* Objective_C_Method_SwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164871F3054340080480A /* Objective_C_Method_SwizzlingTests.m */; };
+		D97164931F3054340080480A /* Objective_C_Method_SwizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164921F3054340080480A /* Objective_C_Method_SwizzlingUITests.m */; };
+		D97164A21F3060920080480A /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164A11F3060920080480A /* UIViewController+Tracking.m */; };
+		D97164A51F3068160080480A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164A41F3068160080480A /* Car.m */; };
+		D97164A81F3068550080480A /* MyCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164A71F3068550080480A /* MyCar.m */; };
+		D97164AB1F30712C0080480A /* NSDictionary+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164AA1F30712C0080480A /* NSDictionary+Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97164841F3054340080480A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97164621F3054330080480A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97164691F3054330080480A;
+			remoteInfo = "Objective-C Method Swizzling";
+		};
+		D971648F1F3054340080480A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97164621F3054330080480A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97164691F3054330080480A;
+			remoteInfo = "Objective-C Method Swizzling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D971646A1F3054330080480A /* Objective-C Method Swizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C Method Swizzling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971646E1F3054330080480A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97164701F3054330080480A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97164711F3054330080480A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D97164731F3054330080480A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D97164741F3054330080480A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D97164771F3054340080480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D97164791F3054340080480A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D971647C1F3054340080480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D971647E1F3054340080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97164831F3054340080480A /* Objective-C Method SwizzlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C Method SwizzlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97164871F3054340080480A /* Objective_C_Method_SwizzlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_Method_SwizzlingTests.m; sourceTree = "<group>"; };
+		D97164891F3054340080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D971648E1F3054340080480A /* Objective-C Method SwizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C Method SwizzlingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97164921F3054340080480A /* Objective_C_Method_SwizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_Method_SwizzlingUITests.m; sourceTree = "<group>"; };
+		D97164941F3054340080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97164A01F3060920080480A /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		D97164A11F3060920080480A /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		D97164A31F3068160080480A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		D97164A41F3068160080480A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		D97164A61F3068550080480A /* MyCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCar.h; sourceTree = "<group>"; };
+		D97164A71F3068550080480A /* MyCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCar.m; sourceTree = "<group>"; };
+		D97164A91F30712C0080480A /* NSDictionary+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Test.h"; sourceTree = "<group>"; };
+		D97164AA1F30712C0080480A /* NSDictionary+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Test.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97164671F3054330080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97164801F3054340080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D971648B1F3054340080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97164611F3054330080480A = {
+			isa = PBXGroup;
+			children = (
+				D971646C1F3054330080480A /* Objective-C Method Swizzling */,
+				D97164861F3054340080480A /* Objective-C Method SwizzlingTests */,
+				D97164911F3054340080480A /* Objective-C Method SwizzlingUITests */,
+				D971646B1F3054330080480A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D971646B1F3054330080480A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D971646A1F3054330080480A /* Objective-C Method Swizzling.app */,
+				D97164831F3054340080480A /* Objective-C Method SwizzlingTests.xctest */,
+				D971648E1F3054340080480A /* Objective-C Method SwizzlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D971646C1F3054330080480A /* Objective-C Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				D97164701F3054330080480A /* AppDelegate.h */,
+				D97164711F3054330080480A /* AppDelegate.m */,
+				D97164A31F3068160080480A /* Car.h */,
+				D97164A41F3068160080480A /* Car.m */,
+				D97164A61F3068550080480A /* MyCar.h */,
+				D97164A71F3068550080480A /* MyCar.m */,
+				D97164A91F30712C0080480A /* NSDictionary+Test.h */,
+				D97164AA1F30712C0080480A /* NSDictionary+Test.m */,
+				D97164731F3054330080480A /* ViewController.h */,
+				D97164741F3054330080480A /* ViewController.m */,
+				D97164A01F3060920080480A /* UIViewController+Tracking.h */,
+				D97164A11F3060920080480A /* UIViewController+Tracking.m */,
+				D97164761F3054340080480A /* Main.storyboard */,
+				D97164791F3054340080480A /* Assets.xcassets */,
+				D971647B1F3054340080480A /* LaunchScreen.storyboard */,
+				D971647E1F3054340080480A /* Info.plist */,
+				D971646D1F3054330080480A /* Supporting Files */,
+			);
+			path = "Objective-C Method Swizzling";
+			sourceTree = "<group>";
+		};
+		D971646D1F3054330080480A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D971646E1F3054330080480A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D97164861F3054340080480A /* Objective-C Method SwizzlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D97164871F3054340080480A /* Objective_C_Method_SwizzlingTests.m */,
+				D97164891F3054340080480A /* Info.plist */,
+			);
+			path = "Objective-C Method SwizzlingTests";
+			sourceTree = "<group>";
+		};
+		D97164911F3054340080480A /* Objective-C Method SwizzlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97164921F3054340080480A /* Objective_C_Method_SwizzlingUITests.m */,
+				D97164941F3054340080480A /* Info.plist */,
+			);
+			path = "Objective-C Method SwizzlingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97164691F3054330080480A /* Objective-C Method Swizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97164971F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method Swizzling" */;
+			buildPhases = (
+				D97164661F3054330080480A /* Sources */,
+				D97164671F3054330080480A /* Frameworks */,
+				D97164681F3054330080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-C Method Swizzling";
+			productName = "Objective-C Method Swizzling";
+			productReference = D971646A1F3054330080480A /* Objective-C Method Swizzling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97164821F3054340080480A /* Objective-C Method SwizzlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971649A1F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method SwizzlingTests" */;
+			buildPhases = (
+				D971647F1F3054340080480A /* Sources */,
+				D97164801F3054340080480A /* Frameworks */,
+				D97164811F3054340080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97164851F3054340080480A /* PBXTargetDependency */,
+			);
+			name = "Objective-C Method SwizzlingTests";
+			productName = "Objective-C Method SwizzlingTests";
+			productReference = D97164831F3054340080480A /* Objective-C Method SwizzlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D971648D1F3054340080480A /* Objective-C Method SwizzlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971649D1F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method SwizzlingUITests" */;
+			buildPhases = (
+				D971648A1F3054340080480A /* Sources */,
+				D971648B1F3054340080480A /* Frameworks */,
+				D971648C1F3054340080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97164901F3054340080480A /* PBXTargetDependency */,
+			);
+			name = "Objective-C Method SwizzlingUITests";
+			productName = "Objective-C Method SwizzlingUITests";
+			productReference = D971648E1F3054340080480A /* Objective-C Method SwizzlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97164621F3054330080480A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "方冬冬";
+				TargetAttributes = {
+					D97164691F3054330080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D97164821F3054340080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D97164691F3054330080480A;
+					};
+					D971648D1F3054340080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D97164691F3054330080480A;
+					};
+				};
+			};
+			buildConfigurationList = D97164651F3054330080480A /* Build configuration list for PBXProject "Objective-C Method Swizzling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97164611F3054330080480A;
+			productRefGroup = D971646B1F3054330080480A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97164691F3054330080480A /* Objective-C Method Swizzling */,
+				D97164821F3054340080480A /* Objective-C Method SwizzlingTests */,
+				D971648D1F3054340080480A /* Objective-C Method SwizzlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97164681F3054330080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971647D1F3054340080480A /* LaunchScreen.storyboard in Resources */,
+				D971647A1F3054340080480A /* Assets.xcassets in Resources */,
+				D97164781F3054340080480A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97164811F3054340080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D971648C1F3054340080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97164661F3054330080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97164A81F3068550080480A /* MyCar.m in Sources */,
+				D97164A51F3068160080480A /* Car.m in Sources */,
+				D97164751F3054330080480A /* ViewController.m in Sources */,
+				D97164AB1F30712C0080480A /* NSDictionary+Test.m in Sources */,
+				D97164A21F3060920080480A /* UIViewController+Tracking.m in Sources */,
+				D97164721F3054330080480A /* AppDelegate.m in Sources */,
+				D971646F1F3054330080480A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D971647F1F3054340080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97164881F3054340080480A /* Objective_C_Method_SwizzlingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D971648A1F3054340080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97164931F3054340080480A /* Objective_C_Method_SwizzlingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97164851F3054340080480A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97164691F3054330080480A /* Objective-C Method Swizzling */;
+			targetProxy = D97164841F3054340080480A /* PBXContainerItemProxy */;
+		};
+		D97164901F3054340080480A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97164691F3054330080480A /* Objective-C Method Swizzling */;
+			targetProxy = D971648F1F3054340080480A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D97164761F3054340080480A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97164771F3054340080480A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D971647B1F3054340080480A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D971647C1F3054340080480A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97164951F3054340080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D97164961F3054340080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97164981F3054340080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Objective-C Method Swizzling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.Objective-C-Method-Swizzling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D97164991F3054340080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Objective-C Method Swizzling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.Objective-C-Method-Swizzling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D971649B1F3054340080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Objective-C Method SwizzlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.Objective-C-Method-SwizzlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C Method Swizzling.app/Objective-C Method Swizzling";
+			};
+			name = Debug;
+		};
+		D971649C1F3054340080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Objective-C Method SwizzlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.Objective-C-Method-SwizzlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C Method Swizzling.app/Objective-C Method Swizzling";
+			};
+			name = Release;
+		};
+		D971649E1F3054340080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Objective-C Method SwizzlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.Objective-C-Method-SwizzlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Objective-C Method Swizzling";
+			};
+			name = Debug;
+		};
+		D971649F1F3054340080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Objective-C Method SwizzlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.Objective-C-Method-SwizzlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Objective-C Method Swizzling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97164651F3054330080480A /* Build configuration list for PBXProject "Objective-C Method Swizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97164951F3054340080480A /* Debug */,
+				D97164961F3054340080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97164971F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method Swizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97164981F3054340080480A /* Debug */,
+				D97164991F3054340080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D971649A1F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method SwizzlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971649B1F3054340080480A /* Debug */,
+				D971649C1F3054340080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D971649D1F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method SwizzlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971649E1F3054340080480A /* Debug */,
+				D971649F1F3054340080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97164621F3054330080480A /* Project object */;
+}
