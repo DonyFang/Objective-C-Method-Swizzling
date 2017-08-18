@@ -19,6 +19,7 @@
 		D97164A51F3068160080480A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164A41F3068160080480A /* Car.m */; };
 		D97164A81F3068550080480A /* MyCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164A71F3068550080480A /* MyCar.m */; };
 		D97164AB1F30712C0080480A /* NSDictionary+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D97164AA1F30712C0080480A /* NSDictionary+Test.m */; };
+		D9A201C31F4684FF00F42E18 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A201C21F4684FF00F42E18 /* NSArray+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		D97164A71F3068550080480A /* MyCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCar.m; sourceTree = "<group>"; };
 		D97164A91F30712C0080480A /* NSDictionary+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Test.h"; sourceTree = "<group>"; };
 		D97164AA1F30712C0080480A /* NSDictionary+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Test.m"; sourceTree = "<group>"; };
+		D9A201C11F4684FF00F42E18 /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Extension.h"; path = "../NSArray+Extension.h"; sourceTree = "<group>"; };
+		D9A201C21F4684FF00F42E18 /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Extension.m"; path = "../NSArray+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		D971646C1F3054330080480A /* Objective-C Method Swizzling */ = {
 			isa = PBXGroup;
 			children = (
+				D9A201C11F4684FF00F42E18 /* NSArray+Extension.h */,
+				D9A201C21F4684FF00F42E18 /* NSArray+Extension.m */,
 				D97164701F3054330080480A /* AppDelegate.h */,
 				D97164711F3054330080480A /* AppDelegate.m */,
 				D97164A31F3068160080480A /* Car.h */,
@@ -299,6 +304,7 @@
 				D97164AB1F30712C0080480A /* NSDictionary+Test.m in Sources */,
 				D97164A21F3060920080480A /* UIViewController+Tracking.m in Sources */,
 				D97164721F3054330080480A /* AppDelegate.m in Sources */,
+				D9A201C31F4684FF00F42E18 /* NSArray+Extension.m in Sources */,
 				D971646F1F3054330080480A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +539,7 @@
 				D97164991F3054340080480A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D971649A1F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method SwizzlingTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +548,7 @@
 				D971649C1F3054340080480A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D971649D1F3054340080480A /* Build configuration list for PBXNativeTarget "Objective-C Method SwizzlingUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +557,7 @@
 				D971649F1F3054340080480A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
